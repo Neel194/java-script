@@ -15,7 +15,7 @@ if (true) {
 
 
 function one(){
-    const username =neel"
+    const username =neel
 
     function two(){
         const website = "youtube"
@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // op will be 6
 
 function addone(num){
     return num + 1
@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
+//addTwo(5) // we can't declare this first if made function in other variable. if there's only function addTwo(num) then op will be 7
 const addTwo = function(num){
     return num + 2
 }
