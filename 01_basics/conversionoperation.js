@@ -1,7 +1,7 @@
 let score = '33'
 
-//console.log(typeof score);
-//console.log(typeof(score));
+//console.log(typeof score); //string
+//console.log(typeof(score)); //string 
 
 /*
 if there is only 33 then output will be number
@@ -9,7 +9,7 @@ but if there is '33' then output will be string
 */
 
 //let valueNumber = Number(score)
-//console.log(typeof valueNumber);
+//console.log(typeof valueNumber);  //number
 //output will be number
 
 //if there is null value then output will be 0
@@ -77,12 +77,3 @@ console.log(str3);
 
 // console.log(+true); //1
 // console.log(+""); //0
-
-
-
-
-
-
-
-
-
